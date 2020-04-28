@@ -1,0 +1,31 @@
+*.class
+*.classpath
+.settings
+
+# Repertoire de Build et de travail :
+/build
+/.idea/
+db-scripts/.idea/
+*.iml
+*/.project
+*/.settings
+*/.gitignore
+*/*/.gitignore
+*/*/.project
+*/*/.settings
+*/.externalToolBuilders
+*/*/.externalToolBuilders
+*/grunt-maven.json
+*/node_modules/
+
+
+
+# Repertoires Targets :
+/target
+*/target
+*/*/target
+
+# Fichiers de Packaging :
+*.jar
+*.war
+*.ear
